@@ -1,0 +1,24 @@
+{
+  "name": "2-factor-authentication",
+  "version": "1.0.0",
+  "description": "2 factor authentication for case studies.",
+  "main": "index.js",
+  "dependencies": {
+    "totp-generator": "0.0.14"
+  },
+  "devDependencies": {
+    "@types/totp-generator": "0.0.5",
+    "@vercel/node": "2.15.3",
+    "vercel": "31.0.1"
+  },
+  "scripts": {
+    "vercel": "vercel",
+    "deploy": "vercel --prod",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "2fa"
+  ],
+  "author": "Chandu J S",
+  "license": "ISC"
+}
