@@ -9,9 +9,11 @@
   "devDependencies": {
     "@types/totp-generator": "0.0.5",
     "@vercel/node": "2.15.3",
+    "tailwindcss": "3.3.2",
     "vercel": "31.0.1"
   },
   "scripts": {
+    "css": "tailwindcss -i style.css -o style.min.css --watch --minify",
     "vercel": "vercel",
     "deploy": "vercel --prod",
     "start": "vercel dev"
